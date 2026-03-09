@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chedd.dragontweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dragontweaks.refmap.json",
+  "mixins": [
+    "ItemDragonSeekerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
