@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(grep -r \"item\\\\|Item\\\\|sword\\\\|Sword\" /c/Users/Josh/Documents/Minecraft/dragon-tweaks/src/main/java --include=*.java)",
+      "Bash(grep -r \"Item\\\\|tool\\\\|material\\\\|damage\" /c/Users/Josh/Documents/Minecraft/dragon-tweaks/src/main/java --include=*.java -i)",
+      "Bash(find . -path */iceandfire* -name *.jar)"
+    ]
+  }
+}
